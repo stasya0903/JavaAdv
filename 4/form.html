@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        .invalid{
+
+            background-color: red;
+
+        }
+    </style>
+
+
+</head>
+<body>
+<form class="needValidation">
+    <div class="name">
+        <label for="name">Имя</label>
+        <input type="text" id="name">
+        <div class="validation"></div>
+    </div>
+    <div class="phone">
+        <label for="phone">Телефон</label>
+        <input type="text" id="phone">
+        <div class="validation"></div>
+    </div>
+    <div class="email">
+        <label for="email">Email</label>
+        <input type="text" id="email">
+        <div class="validation"></div>
+    </div>
+    <div class="text">
+        <textarea name="freeText" id="freeText" cols="30" rows="10"></textarea>
+    </div>
+    <button type="submit" id="submit" > Отправить форму</button>
+
+
+
+</form>
+
+<script src="javaForform.js"></script>
+
+</body>
+</html>
